@@ -1,0 +1,582 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 421808 */
+    src: url('//at.alicdn.com/t/font_421808_fs9l8iplfevlhaor.eot');
+    src: url('//at.alicdn.com/t/font_421808_fs9l8iplfevlhaor.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_421808_fs9l8iplfevlhaor.woff') format('woff'),
+    url('//at.alicdn.com/t/font_421808_fs9l8iplfevlhaor.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_421808_fs9l8iplfevlhaor.svg#iconfont') format('svg');
+}
+
+.iconfontbig {
+    font-family: iconfont !important;
+    font-style: normal;
+    font-size: 50px;
+    background: #fed136;
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    text-align: center;
+    line-height: 120px;
+}
+
+.iconfontb {
+    font-family: iconfont !important;
+    font-style: normal;
+    font-size: 160px;
+    color: #ffffff;
+    background: #FED136;
+    border-radius: 90px;
+    border: 10px solid #dddddd;
+}
+
+.iconfontsmall {
+    font-family: iconfont !important;
+    font-style: normal;
+    font-size: 30px;
+}
+.iconfont-footer{
+    font-family: iconfont !important;
+    font-style: normal;
+    font-size:30px;
+    line-height: 50px;
+
+}
+body {
+    margin: 0;
+}
+
+#header {
+    position: relative;
+}
+
+#header .pic img {
+    width: 100%;
+    height: 550px;
+
+}
+
+#header .navigation {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    width: 1200px;
+    left: 20px;
+
+}
+
+#header .navigation p {
+    margin: 40px 20px;
+}
+
+#header .navigation p a {
+    font-size: 50px;
+    color: #072f76;
+    font-weight:600;
+    margin: 30px 20px;
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    text-decoration: none;
+
+}
+
+#header .navigation p a:hover {
+    color: #5bc0ff;
+    transition: 1s;
+
+}
+
+#header .navigation #navigation-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+#header .navigation #navigation-nav > li {
+    width: 80px;
+    height: 40px;
+}
+
+#header .navigation #navigation-nav li a {
+    text-decoration: none;
+    color: #072F76;
+}
+
+#header .navigation #navigation-nav li a:hover {
+    color: #5bc0ff;
+    transition: 1s;
+    border-bottom: #5bc0ff 4px solid;
+}
+
+#header .overlay {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+
+}
+
+#header .overlay #overlay-well {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    color: #364b68;
+}
+
+#header .overlay #overlay-come {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    color: #ece8da;
+}
+
+#header .overlay button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: #cdc6b0;
+    color: #fff;
+    font-family: "Heiti SC";
+    font-size: 20px;
+    outline: none;
+}
+
+#header .overlay button:hover {
+    transition: 1s;
+    background: #ECC44D;
+    cursor: pointer;
+}
+#content{
+    padding-top: 70px;
+}
+.service {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+
+}
+
+.service > h1 {
+    color: #000;
+    font-size: 48px;
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+
+}
+
+.service > p {
+    font-style: italic;
+    font-size: 16px;
+    color: #777;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.service-all {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: space-around;
+    margin-top: 60px;
+
+}
+
+.service-all > div {
+    width: 300px;
+    height: 200px;
+
+}
+
+.service-all p {
+    color: #777;
+    text-align: justify;
+}
+
+.service-all span {
+    margin: 10px auto;
+    display: block;
+}
+
+.food {
+    text-align: center;
+    width: 100%;
+    background-color: rgba(192, 192, 192, 0.1);
+    padding-bottom: 50px;
+}
+
+.food > h1 {
+    color: #000;
+    font-size: 48px;
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    padding-top: 50px;
+}
+
+.food > p {
+    font-style: italic;
+    font-size: 16px;
+    color: #777;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.food .food-all {
+    display: flex;
+    width: 1100px;
+    height: 1100px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+.food .food-all > div {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.food .food-all img {
+    width: 300px;
+    height: 200px;
+}
+
+.food .food-all div p {
+    color: #777;
+    font-size: 18px;
+
+}
+
+.food .food-all h2 {
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.food .food-all > div a div:before {
+    content: '';
+    background: rgba(255, 224, 83, 0.8);
+
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    display: block;
+    opacity: 0;
+    z-index: 2;
+}
+
+.food .food-all span {
+    display: inline-block;
+    opacity: 0;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    font-size: 140px;
+    color: #fff;
+    line-height: 200px;
+    z-index: 3;
+}
+
+.food .food-all a:hover span {
+    opacity: 1;
+    transition: 0.8s;
+
+}
+
+.food .food-all a:hover div:before {
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.tourism {
+    width: 100%;
+    text-align: center;
+padding-top: 70px;
+}
+
+.tourism > h1 {
+    color: #000;
+    font-size: 48px;
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+
+.tourism > p {
+    font-style: italic;
+    font-size: 16px;
+    color: #777;
+    letter-spacing: 2px;
+    margin-top: 30px;
+
+}
+
+.tourism > ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+}
+
+.tourism > ul:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 1440px;
+    background: #DDDDDD;
+    top: 180px;
+    left: 50%;
+    margin-left: -2px;
+}
+
+.tourism ul li {
+    width: 100%;
+    height: 360px;
+    position: relative;
+}
+
+.tourism ul li img {
+    width: 160px;
+    height: 160px;
+    border-radius: 90px;
+    border: 10px #dddddd solid;
+    float: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -90px;
+    margin-top: -90px;
+}
+
+.tourism ul li .tourism-left {
+    width: 400px;
+    height: 300px;
+    text-align: right;
+    position: absolute;
+    top: 66px;
+    left: 100px;
+}
+
+.tourism ul li div h3 {
+    margin-bottom: 0;
+}
+
+.tourism ul li div p {
+    color: #777777;
+    font-size: 14px;
+}
+
+.tourism ul li .tourism-right {
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    position: absolute;
+    top: 66px;
+    right: 100px;
+}
+
+.tourism ul li .tourism-more {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.about {
+    text-align: center;
+    width: 100%;
+    background-color: rgba(192, 192, 192, 0.1);
+    padding-bottom: 100px;
+    padding-top: 50px;
+
+}
+
+.about > h1 {
+    color: #000;
+    font-size: 48px;
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+
+.about > p {
+    font-style: italic;
+    font-size: 16px;
+    color: #777;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.about .traffic {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.about img {
+    width: 300px;
+    height: 200px;
+
+}
+
+.about .traffic > div {
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+.about .traffic h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+
+}
+
+.about .traffic p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #777;
+}
+
+.about .traffic div div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.about .traffic div span:hover {
+    color: #FED136;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.contact {
+    width: 100%;
+    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505987970068&di=8d4457111d742b1f3f9bd2367888a3b9&imgtype=0&src=http%3A%2F%2Fimglf1.ph.126.net%2Fb2zEL_JXbcBZfcNE6nwRXQ%3D%3D%2F6619127069421774205.jpg);
+    height: 700px;
+    background-size: 100% 760px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact > h1 {
+    color: #ffffff;
+    font-size: 48px;
+    margin-top: 100px;
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+
+.contact > p {
+    font-style: italic;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 900px;
+    height: 240px;
+    margin: 50px auto;
+}
+
+.contact .contact-form form input {
+    width: 380px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    line-height: 60px;
+    padding-left: 20px;
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+
+.contact-form form textarea {
+    width: 380px;
+    padding-left: 20px;
+    height: 220px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+
+}
+
+.contact .contact-form form input:focus {
+
+    border: 2px solid #FFC084;
+}
+
+.contact-form form textarea:focus {
+
+    border: 2px solid #FFC084;
+}
+.contact-form button{
+    width:140px;
+    height:50px;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    background: #FFE053;
+    color: #ffffff;
+    font-size: 20px;
+}
+.contact-form button:hover{
+    cursor: pointer;
+    background: #FFAE3B;
+    transition:0.8s;
+}
+#footer{
+    display: flex;
+    justify-content:space-around;
+}
+.footer-copy:first-child{
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-size: 14px;
+    width:300px;
+    height:50px;
+    line-height:50px;
+}
+.footer-web{
+    width:300px;
+    height:50px;
+    text-align: right;
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-size: 14px;
+    line-height:50px;
+}
+.footer-web a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-size: 14px;
+}
+.footer-web a:hover{
+    color: #FFAE3B;
+    transition:0.8s;
+    cursor: pointer;
+}
+.footer-contact .qq:before{
+    content: '\e77d';
+}
+.footer-contact .phone:before{
+    content: '\e611';
+}
+.footer-contact .email:before{
+    content: '\e61e';
+}
+.footer-contact .iconfont-footer:hover{
+    color: #FFAE3B;
+    transition:0.8s;
+    cursor: pointer;
+
+}
